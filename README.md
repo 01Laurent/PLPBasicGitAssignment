@@ -1,47 +1,47 @@
 # PLPBasicGitAssignment
 assignment
-kenya@DESKTOP-6TJC9RQ MINGW64 /
+ /
 $ cd c:/
 
-kenya@DESKTOP-6TJC9RQ MINGW64 /c
+ /c
 $ cd Users/kenya/OneDrive/Documents/PLP\ Academy/PLPBasicGitAssignment/
 
-kenya@DESKTOP-6TJC9RQ MINGW64 ~/OneDrive/Documents/PLP Academy/PLPBasicGitAssignment (master)
+ ~/OneDrive/Documents/PLP Academy/PLPBasicGitAssignment (master)
 $ git init
 Initialized empty Git repository in C:/Users/kenya/OneDrive/Documents/PLP Academy/PLPBasicGitAssignment/.git/
 
-kenya@DESKTOP-6TJC9RQ MINGW64 ~/OneDrive/Documents/PLP Academy/PLPBasicGitAssignment (master)
+ ~/OneDrive/Documents/PLP Academy/PLPBasicGitAssignment (master)
 $ git remote add origin https://github.com/01Laurent/PLPBasicGitAssignment.git
 
-kenya@DESKTOP-6TJC9RQ MINGW64 ~/OneDrive/Documents/PLP Academy/PLPBasicGitAssignment (master)
+~/OneDrive/Documents/PLP Academy/PLPBasicGitAssignment (master)
 $ git add hello.txt
 
-kenya@DESKTOP-6TJC9RQ MINGW64 ~/OneDrive/Documents/PLP Academy/PLPBasicGitAssignment (master)
+ ~/OneDrive/Documents/PLP Academy/PLPBasicGitAssignment (master)
 $ git commit -m "Add hello.txt with a greeting"
 [master (root-commit) dae0d05] Add hello.txt with a greeting
  1 file changed, 1 insertion(+)
  create mode 100644 hello.txt
 
-kenya@DESKTOP-6TJC9RQ MINGW64 ~/OneDrive/Documents/PLP Academy/PLPBasicGitAssignment (master)
+ ~/OneDrive/Documents/PLP Academy/PLPBasicGitAssignment (master)
 $ git push -u origin main
 error: src refspec main does not match any
 error: failed to push some refs to 'https://github.com/01Laurent/PLPBasicGitAssignment.git'
 
-kenya@DESKTOP-6TJC9RQ MINGW64 ~/OneDrive/Documents/PLP Academy/PLPBasicGitAssignment (master)
+ ~/OneDrive/Documents/PLP Academy/PLPBasicGitAssignment (master)
 $ git commit -m "Hello"
 On branch master
 nothing to commit, working tree clean
 
-kenya@DESKTOP-6TJC9RQ MINGW64 ~/OneDrive/Documents/PLP Academy/PLPBasicGitAssignment (master)
+ ~/OneDrive/Documents/PLP Academy/PLPBasicGitAssignment (master)
 $ git push -u origin main
 error: src refspec main does not match any
 error: failed to push some refs to 'https://github.com/01Laurent/PLPBasicGitAssignment.git'
 
-kenya@DESKTOP-6TJC9RQ MINGW64 ~/OneDrive/Documents/PLP Academy/PLPBasicGitAssignment (master)
+ ~/OneDrive/Documents/PLP Academy/PLPBasicGitAssignment (master)
 $ git branch
 * master
 
-kenya@DESKTOP-6TJC9RQ MINGW64 ~/OneDrive/Documents/PLP Academy/PLPBasicGitAssignment (master)
+ ~/OneDrive/Documents/PLP Academy/PLPBasicGitAssignment (master)
 $ git push -u origin master
 Enumerating objects: 3, done.
 Counting objects: 100% (3/3), done.
@@ -55,4 +55,4 @@ To https://github.com/01Laurent/PLPBasicGitAssignment.git
  * [new branch]      master -> master
 branch 'master' set up to track 'origin/master'.
 
-kenya@DESKTOP-6TJC9RQ MINGW64 ~/OneDrive/Documents/PLP Academy/PLPBasicGitAssignment (master)
+ ~/OneDrive/Documents/PLP Academy/PLPBasicGitAssignment (master)
